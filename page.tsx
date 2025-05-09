@@ -20,8 +20,7 @@ export default function Home() {
           <div className="container relative z-10 flex max-w-[64rem] flex-col items-center gap-4 text-center">
             <h1 className="text-3xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl">The Viking Vibe</h1>
             <p className="max-w-[42rem] leading-normal text-white sm:text-xl sm:leading-8">
-              A collaborative calendar and exclusive blog platform for the Viking community. Share updates, plan events,
-              and stay connected.
+              Stay in sync with Viking life — events, updates, and all things campus.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/calendar">
@@ -45,7 +44,7 @@ export default function Home() {
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">Features</h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-              Everything you need to coordinate with your team and share important updates.
+              Bring your events to life. Share them with your fellow Vikings.
             </p>
           </div>
           <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
@@ -68,7 +67,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="mt-4 text-xl font-bold">Collaborative Calendar</h3>
-              <p className="mt-2 text-muted-foreground">Create, edit, and share events with your team in real-time.</p>
+              <p className="mt-2 text-muted-foreground">Bring your events to life. Share them with your fellow Vikings.</p>
             </div>
             <div className="relative overflow-hidden rounded-lg border bg-background p-6">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
@@ -86,9 +85,9 @@ export default function Home() {
                   <path d="M13.73 21a2 2 0 0 1-3.46 0" />
                 </svg>
               </div>
-              <h3 className="mt-4 text-xl font-bold">Bi-Monthly Blog</h3>
+              <h3 className="mt-4 text-xl font-bold">The Viking Vibe</h3>
               <p className="mt-2 text-muted-foreground">
-                Stay updated with regular blog posts about team activities and announcements.
+                Stay updated with regular posts from your student orgs about team activities and announcements.
               </p>
             </div>
             <div className="relative overflow-hidden rounded-lg border bg-background p-6">
@@ -109,9 +108,9 @@ export default function Home() {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
               </div>
-              <h3 className="mt-4 text-xl font-bold">Multi-User Access</h3>
+              <h3 className="mt-4 text-xl font-bold">	Collaborative Access</h3>
               <p className="mt-2 text-muted-foreground">
-                Different permission levels for team members to view and edit content.
+                Give the right access to the right people — from viewers to full admins.
               </p>
             </div>
           </div>
@@ -119,9 +118,9 @@ export default function Home() {
         <section className="container py-8 md:py-12 lg:py-24">
           <div className="mx-auto grid max-w-[58rem] gap-8 lg:grid-cols-2">
             <div className="flex flex-col justify-center space-y-4">
-              <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-4xl">Get Started Today</h2>
+              <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-4xl">Stay in Touch With Us</h2>
               <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-                Create an account to start collaborating with your team on events and blog posts.
+               Start collaborating — create events and share your voice with the community.
               </p>
             </div>
             <div className="flex flex-col space-y-4 rounded-lg border bg-background p-8">
